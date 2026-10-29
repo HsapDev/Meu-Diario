@@ -1,0 +1,71 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+Thumbs.db
+Desktop.ini
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Dados sensíveis, credenciais e certificados de assinatura (Keystore)
+.env
+.env.*
+*.jks
+*.keystore
+*.p12
+*.key
+**/key.properties
+**/local.properties
+google-services.json
+GoogleService-Info.plist
+
+# Bancos locais de teste
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# IDEs e configurações locais de máquina
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Flutter/Dart/Pub
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
+
+# Android build artifacts
+/android/.gradle/
+/android/captures/
+/android/gradlew
+/android/gradlew.bat
+/android/app/debug
+/android/app/profile
+/android/app/release
+*.apk
+*.aab
+
+# Widget Preview
+.widget_preview/
